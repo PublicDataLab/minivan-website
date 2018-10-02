@@ -1,0 +1,15 @@
+# meta tags contents
+title: "A Field Guide to “Fake News” and Other Information Disorders"
+description: "A Field Guide to “Fake News” and Other Information Disorders explores the use of digital methods to study viral news, political memes, trolling practices and their social life online. It is a project of the Public Data Lab with support from First Draft."
+coverImage: "http://fakenews.publicdatalab.org/images/cover.png"
+coverImageWidth: "3360"
+coverImageHeight: "1472"
+
+# main cover url
+mainCover: "https://place-hold.it/2880x2880&fontsize=36"
+
+# colors
+themeColor: "#E95265"
+textColor: "2e2d2e"
+cookieBgColor: "#000000"
+cookieButton: "#f9ec31"
