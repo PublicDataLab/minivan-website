@@ -7,7 +7,7 @@ title: Home
 
 It responds to an increasing demand for understanding the interplay between digital platforms, misleading information, propaganda and viral content practices, and their influence on politics and public life in democratic societies.
 
-It is a project of the [Public Data Lab](http://publicdatalab.org/) with support from [First Draft](https://firstdraftnews.com/).
+It is a project of the [Public Data Lab](http://publicdatalab.org/) with support from [First Draft](https://firstdraftnews.com/). 
 
 The guide is freely available via the link below.
 
