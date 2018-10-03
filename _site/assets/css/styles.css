@@ -3,7 +3,7 @@ body {
   font-size: 21px;
   color: 2e2d2e;
   padding-bottom: 15vh;
-  border-bottom: 20px solid #E95265; }
+  border-bottom: 20px solid #7FBDF8; }
 
 body.loading {
   height: 100vh;
@@ -15,7 +15,7 @@ a {
   text-decoration: underline; }
 
 a:hover {
-  color: #E95265; }
+  color: #7FBDF8; }
 
 .introduction {
   font-size: 30px; }
@@ -37,7 +37,7 @@ h4 {
   padding-top: 50px; }
 
 .main {
-  background-image: url(https://place-hold.it/2880x2880&fontsize=36);
+  background-image: url(../images/MiniVAN_ScreenshotMosaic.gif);
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -53,7 +53,7 @@ h4 {
   height: 100vh; }
 
 .modal-header {
-  background-color: #E95265; }
+  background-color: #7FBDF8; }
 
 .modal-content {
   border-radius: 0px; }

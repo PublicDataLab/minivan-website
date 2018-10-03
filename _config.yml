@@ -1,15 +1,15 @@
 # meta tags contents
-title: "A Field Guide to “Fake News” and Other Information Disorders"
-description: "A Field Guide to “Fake News” and Other Information Disorders explores the use of digital methods to study viral news, political memes, trolling practices and their social life online. It is a project of the Public Data Lab with support from First Draft."
-coverImage: "http://fakenews.publicdatalab.org/images/cover.png"
-coverImageWidth: "3360"
-coverImageHeight: "1472"
+title: "MiniVAN"
+description: "MiniVAN, a VNA tool, accessible to scholars with little knowledge of mathematics or coding and yet capable to scale up to graphs of several thousands of nodes"
+coverImage: "images/MiniVAN_ScreenshotMosaic.gif"
+coverImageWidth: "2812"
+coverImageHeight: "1100"
 
 # main cover url
-mainCover: "https://place-hold.it/2880x2880&fontsize=36"
+mainCover: "images/MiniVAN_ScreenshotMosaic.gif"
 
 # colors
-themeColor: "#E95265"
+themeColor: "#7FBDF8"
 textColor: "2e2d2e"
 cookieBgColor: "#000000"
 cookieButton: "#f9ec31"
