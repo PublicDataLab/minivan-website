@@ -6,7 +6,7 @@ coverImageWidth: "2812"
 coverImageHeight: "1100"
 
 # main cover url
-mainCover: "/assets/images/ScreenshotMosaic.gif"
+mainCover: "../images/ScreenshotMosaic.gif"
 
 # colors
 themeColor: "#7FBDF8"

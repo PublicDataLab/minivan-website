@@ -37,7 +37,7 @@ h4 {
   padding-top: 50px; }
 
 .main {
-  background-image: url(/assets/images/ScreenshotMosaic.gif);
+  background-image: url(../images/ScreenshotMosaic.gif);
   background-size: cover;
   background-position: center;
   width: 100vw;
