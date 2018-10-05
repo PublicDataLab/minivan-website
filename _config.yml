@@ -6,10 +6,10 @@ coverImageWidth: "2812"
 coverImageHeight: "1100"
 
 # main cover url
-mainCover: "images/MiniVAN_ScreenshotMosaic.gif"
+mainCover: "/assets/images/ScreenshotMosaic.gif"
 
 # colors
 themeColor: "#7FBDF8"
 textColor: "2e2d2e"
 cookieBgColor: "#000000"
-cookieButton: "#f9ec31"
+cookieButton: "#7FBDF8"
