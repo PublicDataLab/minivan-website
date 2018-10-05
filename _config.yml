@@ -1,0 +1,15 @@
+# meta tags contents
+title: "MiniVAN"
+description: "MiniVAN, a VNA tool, accessible to scholars with little knowledge of mathematics or coding and yet capable to scale up to graphs of several thousands of nodes"
+coverImage: "images/MiniVAN_ScreenshotMosaic.gif"
+coverImageWidth: "2812"
+coverImageHeight: "1100"
+
+# main cover url
+mainCover: "/assets/images/ScreenshotMosaic.gif"
+
+# colors
+themeColor: "#7FBDF8"
+textColor: "2e2d2e"
+cookieBgColor: "#000000"
+cookieButton: "#7FBDF8"

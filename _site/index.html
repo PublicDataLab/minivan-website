@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<title>Home</title>
+	<!-- Custom browser color -->
+	<meta name="theme-color" content=#7FBDF8>
+	<meta name="msapplication-navbutton-color" content=#7FBDF8>
+	<meta name="apple-mobile-web-app-status-bar-style" content=#7FBDF8>
+	<!-- Social network and search engines meta tags -->
+	<!-- Search Engine -->
+	<meta name="description" content=MiniVAN, a VNA tool, accessible to scholars with little knowledge of mathematics or coding and yet capable to scale up to graphs of several thousands of nodes>
+	<meta name="image" content=>
+	<!-- Schema.org for Google -->
+	<meta itemprop="name" content=Home>
+	<meta itemprop="description" content=MiniVAN, a VNA tool, accessible to scholars with little knowledge of mathematics or coding and yet capable to scale up to graphs of several thousands of nodes>
+	<meta itemprop="image" content=>
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content=Home>
+	<meta name="twitter:description" content=MiniVAN, a VNA tool, accessible to scholars with little knowledge of mathematics or coding and yet capable to scale up to graphs of several thousands of nodes>
+	<meta name="twitter:creator" content="@publicdatalab">
+	<meta name="twitter:image:src" content=>
+	<meta name="twitter:card" content="summary_large_image">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta name="og:title" content=Home>
+	<meta name="og:description" content=MiniVAN, a VNA tool, accessible to scholars with little knowledge of mathematics or coding and yet capable to scale up to graphs of several thousands of nodes>
+	<meta name="og:image" content=>
+	<meta name="og:type" content="website">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<!-- Cookie consent -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- Website CSS -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="loading">
+	<div class="main cover">
+		<h1 class="down white">
+			<i class="loader-item fa fa-spinner fa-pulse fa-1x fa-fw"></i>
+			<span class="loader-item sr-only">Loading...</span>
+		</h1>
+	</div>
+
+	<div class="container fluid">
+		<div class="container">
+			<div class="row row-padding">
+				<div class="introduction">
+					
+					<p><strong><em>MiniVAN (Visual Analyser of Networks)</em></strong></p>
+
+<p>Networks are increasingly popular in the social sciences and in the humanities as interfaces for exploratory data analysis. “Visual Networks Analysis” (or VNA) allows scholars to analyse large relational datasets without having to deal with the full complexity of graph mathematics.</p>
+
+<p>Current VNA tools, however, are either too complicated or unable to handle large datasets. Hence MiniVAN, a VNA tool, accessible to scholars with little knowledge of mathematics or coding and yet capable to scale up to graphs of several thousands of nodes.</p>
+
+<p>MiniVAN draws on previous open source (<a href="http://gephi.org">gephi.org</a>, <a href="http://sigmajs.org">sigmajs.org</a>, <a href="http://graphology.github.io">graphology.github.io</a>) and research projects (<a href="http://climaps.eu">climaps.eu</a> and <a href="http://fakenews.publicdatalab.org">fakenews.publicdatalab.org</a>).</p>
+
+<p>MiniVAN is a project of the <a href="http://publicdatalab.org/">Public Data Lab</a> with support from <a href="https://ocean.sagepub.com/concept-grants/">Sage Ocean Concept Grant</a>. 
+MiniVAN is currently under development and will be released in early 2019. Stay tuned!</p>
+
+
+				</div>
+			</div>
+
+			<div class="row row-padding">
+				<div class="col-md-10 col-md-offset-1">
+					
+
+<h1 id="contact">Contact</h1>
+
+<p>Please direct any inquires about this project to the miniVAN team (Mathieu Jacomy, Guillaume Plique, Jonathan Gray and Tommaso Venturini) at <a href="mailto:contact@publicdatalab.org">contact at publicdatalab.org</a>.</p>
+
+<h1 id="about">About</h1>
+
+<p>MiniVAN is a tool for the exploration of small and large networks, addressed to social scientists and everyone who is interested in graph analysis but has difficulties with graph mathematics. The challenge is to make sophisticated analytic techniques (clustering, spatializing, ranking, filtering, etc) available in a visual and user-friendly environment.</p>
+
+<p>MiniVAN has several advantages over the existing software, but it’s key strength is a long-standing reflection on the conceptual basis of Visual Network Analysis. MiniVAN will not only offer a collection of analytic functions, but also guide it users aligning different visualisations and metrics in a ordered inquiry.</p>
+
+<p>The development of MiniVAN will be uphold by a series of discussions with potential alpha-users, through the support of the Public Data Lab a research network on digital data and public interventions. The PLD gathers scholars coming from many leading digital methods centres from across Europe (both from the social and the information sciences). It also entertains a network of contacts with practitioners, journalists, civil society groups, designers, developers and public institutions, which will be mobilised to specify the different needs that MiniVAN will try to respond to.</p>
+
+<p>MiniVAN is composed of two distinct open source web applications:</p>
+
+<ol>
+  <li>The Analyser
+    <ul>
+      <li>Receives and parses a graph uploaded by the user;</li>
+      <li>Guides the user through the choice of the dimensions and the methods of the analysis;</li>
+      <li>Accompanies the user in the definition of the visual properties of the graph representation;</li>
+      <li>Produces a file bundle to be processed by the second application.
+(The file bundle produced by the Analyser can be hosted by any web server or by a third-party solutions - such as Github’s gists)</li>
+    </ul>
+  </li>
+  <li>The Visualiser
+    <ul>
+      <li>Reads the data contained in the file bundle produced by the Analyser;</li>
+      <li>Displays multiple visualizations of the network;</li>
+      <li>Provides selected metrics and information about categories and relational structures;</li>
+      <li>Allows the proposed views to be further filtered/tweaked/explored etc. by the readers;</li>
+      <li>Generate a code snippet that can be embedded in any website.</li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="a-few-redings-on-visual-network-analysis">A few redings on Visual Network Analysis:</h1>
+
+<ul>
+  <li>
+    <p>Venturini, Tommaso, Mathieu Jacomy, and Pablo Jensen. Extract from <a href="http://www.tommasoventurini.it/wp/wp-content/uploads/2018/10/VisualNetworkAnalysis-TheJazzNetwork.pdf">“What do we see when we look at networks an introduction to visual network analysis and force-directed layouts”</a>, forthcoming</p>
+  </li>
+  <li>
+    <p>Venturini, Tommaso, Mathieu Jacomy, Liliana Bounegru, and Jonathan Gray. 2018. <a href="http://www.tommasoventurini.it/wp/wp-content/uploads/2017/10/VenturiniEtAl_VisualNetworkExploration.pdf">“Visual Network Exploration for Data Journalists”</a>. In The Routledge Handbook to Developments in Digital Journalism Studies, edited by Scott II Eldridge and Bob Franklin. Abingdon: Routledge.</p>
+  </li>
+  <li>
+    <p>Jacomy, Mathieu, Tommaso Venturini, Sebastien Heymann, and Mathieu Bastian. 2014. <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098679">“ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software”</a>. PloS One 9 (6): e98679. doi:10.1371/journal.pone.0098679.</p>
+  </li>
+  <li>
+    <p>Venturini, Tommaso, Liliana Bounegru, Mathieu Jacomy, and Jonathan Gray. 2017. <a href="http://www.tommasoventurini.it/wp/wp-content/uploads/2016/01/How_to_Tell_Stories_with_Networks_PreprintVersion.pdf">“How to Tell Stories with Networks: Exploring the Narrative Affordances of Graphs with the Iliad”</a>. In Datafied Society, edited by Mirko Tobias Schäfer and Karin van Es. Amsterdam: University Press.</p>
+  </li>
+  <li>
+    <p>Bounegru, Liliana, Tommaso Venturini, Jonathan Gray, and Mathieu Jacomy. 2017. <a href="http://www.tommasoventurini.it/wp/how-to-tell-stories-with-networks-exploring-the-narrative-affordances-of-graphs-with-the-iliad/">“Narrating Networks”</a>. Digital Journalism 5 (6): 699–730. doi:10.1080/21670811.2016.1186497.</p>
+  </li>
+  <li>
+    <p>Venturini, Tommaso, Anders Munk, and Mathieu Jacomy. 2018. <a href="http://www.tommasoventurini.it/wp/wp-content/uploads/2015/05/Venturini-Munk_Jacomy_ANT-vs-SNA-vs-NET.pdf">“Actor-Network VS Network Analysis VS Digital Networks Are We Talking About the Same Networks?”</a>. In DigitalSTS: A Handbook and Fieldguide (Forthcoming), edited by David Ribes and Janet Vertesi.</p>
+  </li>
+</ul>
+
+<h1 id="coordinated-by">Coordinated by</h1>
+
+<p><img src="assets/images/logo-publicdatalab.svg" alt="drawing" width="200" /></p>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Loader. You can use this to run custom scripts before showing the full page  -->
+	<script>
+		//the function will reduce the cover after executing the isntructions in the function
+		function init() {
+			$('.loader-item').toggleClass('hidden');
+			$('body').toggleClass('loading');
+		}
+		// run the init() function when loaded
+		window.addEventListener('DOMContentLoaded', init)
+	</script>
+
+	<!-- Cookie conset code -->
+	<script>
+		window.cookieconsent.initialise({
+			container: document.getElementById("content"),
+			palette: {
+				popup: {
+					background: "#000000"
+				},
+				button: {
+					background: "#7FBDF8"
+				},
+			},
+			revokable: true,
+			onStatusChange: function(status) {
+				console.log(this.hasConsented() ?
+					'enable cookies' : 'disable cookies');
+			},
+			law: {
+				regionalLaw: false,
+			},
+			location: true,
+		});
+	</script>
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

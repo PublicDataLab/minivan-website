@@ -1,0 +1,63 @@
+body {
+  font-family: 'Crimson Text', serif;
+  font-size: 21px;
+  color: 2e2d2e;
+  padding-bottom: 15vh;
+  border-bottom: 20px solid #7FBDF8; }
+
+body.loading {
+  height: 100vh;
+  overflow: hidden; }
+
+a {
+  color: inherit;
+  display: inline;
+  text-decoration: underline; }
+
+a:hover {
+  color: #7FBDF8; }
+
+.introduction {
+  font-size: 30px; }
+
+ul {
+  padding-left: 23px; }
+
+h4 {
+  font-weight: bold;
+  font-size: 18px; }
+
+.center-text {
+  text-align: center; }
+
+.white {
+  color: white; }
+
+.row-padding {
+  padding-top: 50px; }
+
+.main {
+  background-image: url(/assets/images/ScreenshotMosaic.gif);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: height 0.5s ease-in-out;
+  transition-delay: 0.5s; }
+
+.loading .main {
+  height: 100vh; }
+
+.modal-header {
+  background-color: #7FBDF8; }
+
+.modal-content {
+  border-radius: 0px; }
+
+@media screen and (max-width: 411px) {
+  .introduction {
+    font-size: 24px; } }
