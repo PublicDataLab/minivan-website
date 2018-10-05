@@ -46,7 +46,7 @@ MiniVAN is composed of two distinct open source web applications:
 	- Generate a code snippet that can be embedded in any website.
 
 
-# A few redings on Visual Network Analysis:
+# A few readings on Visual Network Analysis:
 
 - Venturini, Tommaso, Mathieu Jacomy, and Pablo Jensen. Extract from ["What do we see when we look at networks an introduction to visual network analysis and force-directed layouts"](http://www.tommasoventurini.it/wp/wp-content/uploads/2018/10/VisualNetworkAnalysis-TheJazzNetwork.pdf), forthcoming
 
