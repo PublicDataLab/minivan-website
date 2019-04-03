@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-***MiniVAN (Visual Analyser of Networks)*** 
+***MiniVAN (Visual Analyser of Networks)***
 
 Networks are increasingly popular in the social sciences and in the humanities as interfaces for exploratory data analysis. "Visual Networks Analysis" (or VNA) allows scholars to analyse large relational datasets without having to deal with the full complexity of graph mathematics.
 
@@ -11,14 +11,14 @@ Current VNA tools, however, are either too complicated or unable to handle large
 
 MiniVAN draws on previous open source ([gephi.org](http://gephi.org), [sigmajs.org](http://sigmajs.org), [graphology.github.io](http://graphology.github.io)) and research projects ([climaps.eu](http://climaps.eu) and [fakenews.publicdatalab.org](http://fakenews.publicdatalab.org)).
 
-MiniVAN is a project of the [Public Data Lab](http://publicdatalab.org/) with support from [Sage Ocean Concept Grant](https://ocean.sagepub.com/concept-grants/). 
+MiniVAN is a project of the [Public Data Lab](http://publicdatalab.org/) with support from [Sage Ocean Concept Grant](https://ocean.sagepub.com/concept-grants/).
 MiniVAN is currently under development and will be released in early 2019. Stay tuned!
 
 <!--more-->
 
 # Contact
 
-Please direct any inquires about this project to the miniVAN team (Mathieu Jacomy, Guillaume Plique, Jonathan Gray and Tommaso Venturini) at [contact at publicdatalab.org](mailto:contact@publicdatalab.org).
+Please direct any inquires about this project to the miniVAN team (Mathieu Jacomy, Guillaume Plique, Jonathan Gray, Tommaso Venturini and Axel Meunier) at [contact at publicdatalab.org](mailto:contact@publicdatalab.org).
 
 # About
 
@@ -63,4 +63,3 @@ MiniVAN is composed of two distinct open source web applications:
 # Coordinated by
 
 <img src="assets/images/logo-publicdatalab.svg" alt="drawing" width="200"/>
-
