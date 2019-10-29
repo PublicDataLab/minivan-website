@@ -5,6 +5,9 @@ title: Home
 
 ***MiniVAN (Visual Analyser of Networks)***
 
+
+[Click here to try miniVAN](https://medialab.github.io/minivan/#!/)
+
 Networks are increasingly popular in the social sciences and in the humanities as interfaces for exploratory data analysis. "Visual Networks Analysis" (or VNA) allows scholars to analyse large relational datasets without having to deal with the full complexity of graph mathematics.
 
 Current VNA tools, however, are either too complicated or unable to handle large datasets. Hence MiniVAN, a VNA tool, accessible to scholars with little knowledge of mathematics or coding and yet capable to scale up to graphs of several thousands of nodes.

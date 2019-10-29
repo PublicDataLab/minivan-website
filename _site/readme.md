@@ -24,7 +24,7 @@ Click on `Clone or Download` green button.
 
 Click on `Open in Desktop`
 
-GitHub Dekstop should open, follow the process throught the interface keeping the default options. 
+GitHub Dekstop should open, follow the process throught the interface keeping the default options.
 
 ### 2. Install jekyll
 
@@ -32,7 +32,7 @@ Follow [these instructions to install jekyll on your computer](https://jekyllrb.
 
 ### 3. Local preview
 
-To have a preview on your computer, open the terminal, browse to the website folder and then run the command`jeckyll serve`.
+To have a preview on your computer, open the terminal, browse to the website folder and then run the command `bundle exec jekyll serve`.
 
 Done! Now open in any browser the url http://localhost:4000/.
 
